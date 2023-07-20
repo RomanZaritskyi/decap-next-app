@@ -8,7 +8,6 @@ const nextConfig = {
     });
     return cfg;
   },
-  output: "export",
 };
 
 module.exports = nextConfig;
