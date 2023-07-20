@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { attributes, react as HomeComponent } from "../content/home.md";
+import { attributes, react as HomeComponent } from "../../content/home.md";
 
 export default function Home() {
   let { title, cats } = attributes;
