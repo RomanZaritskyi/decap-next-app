@@ -11,4 +11,3 @@ cats:
   - name: Vasyl
     description: Super kit
 ---
-a﻿msnTETS
