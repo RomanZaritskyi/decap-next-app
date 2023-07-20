@@ -31,14 +31,12 @@ export default function Accelerator() {
       </div>
 
       <div className='accelerator-bottom'>
-        <h2 className='accelerator-bottom-title'>{t("accelerator.changes.title")}</h2>
+        <h2 className='accelerator-bottom-title'>ЩО ЗМІНИЛОСЬ?</h2>
         <div className='accelerator-bottom-statistic'>
           <div className='accelerator-bottom-col-names'>
-            <div className='col-name'>{t("accelerator.changes.cards.past.title")}</div>
+            <div className='col-name'>БУЛО</div>
             <div className='col-name-empty'></div>
-            <div className='col-name green-color'>
-              {t("accelerator.changes.cards.present.title")}
-            </div>
+            <div className='col-name green-color'>СТАЛО</div>
           </div>
           <div className='accelerator-bottom-cards'>
             <div className='cards-past-block'>
