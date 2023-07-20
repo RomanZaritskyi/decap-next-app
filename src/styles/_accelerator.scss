@@ -1,0 +1,421 @@
+.accelerator {
+  width: 100%;
+  background-image: url("/img/bg_accelerator.jpg");
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 95px;
+}
+
+.accelerator-top-title {
+  margin-bottom: 65px;
+
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.accelerator-top-subtitle {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.accelerator-top-subtitle .green-color {
+  color: #50d074;
+}
+.accelerator-top-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.accelerator-top-card {
+  position: relative;
+  flex-basis: 292px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.21);
+  transition: all 0.5s ease-in-out;
+}
+
+.accelerator-top-card:hover {
+  background: rgba(80, 208, 116, 0.25);
+  border: 1px solid #50d074;
+}
+
+.accelerator-top-card .dash {
+  width: 21px;
+  border-top: 1px solid #fff;
+}
+.accelerator-top-card .number {
+  font-size: 28px;
+  line-height: 35px;
+  color: #65ce82;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.accelerator-top-card .title {
+  min-height: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.accelerator-top-card .description {
+  // font-family: "Courier New";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.corner-wrapper {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+}
+
+.corner-wrapper .corner span {
+  display: block;
+  width: 13px;
+  height: 3px;
+  background: #d9d9d9;
+  transition: all 0.5s ease-in-out;
+}
+
+.corner-wrapper .corner span.active {
+  background: #50d074;
+}
+
+.accelerator-top-card:hover .corner-wrapper .corner span {
+  background: #50d074;
+}
+
+.corner-wrapper .corner span:nth-child(1) {
+  transform: translate(5px, 8px);
+}
+.corner-wrapper .corner span:nth-child(2) {
+  transform: rotate(90deg);
+}
+.corner-wrapper.top-right {
+  transform: rotate(180deg);
+  top: -4px;
+  right: -7px;
+}
+.corner-wrapper.top-left {
+  transform: rotate(90deg);
+  top: -7px;
+  left: -4px;
+}
+.corner-wrapper.bottom-right {
+  transform: rotate(-90deg);
+  bottom: -7px;
+  right: -4px;
+}
+.corner-wrapper.bottom-left {
+  bottom: -4px;
+  left: -7px;
+}
+
+.accelerator-bottom {
+  padding-top: 150px;
+}
+
+.accelerator-bottom-title {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 62px;
+}
+
+.accelerator-bottom-statistic {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accelerator-bottom-col-names {
+  flex-basis: 8%;
+}
+
+.accelerator-bottom-col-names .col-name-empty {
+  height: 50px;
+}
+
+.accelerator-bottom-col-names .col-name {
+  height: 120px;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.accelerator-bottom-col-names .col-name.green-color {
+  color: #50d074;
+}
+
+.accelerator-bottom-cards {
+  flex-basis: 92%;
+}
+
+.accelerator-bottom-cards .cards-past-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-past-block .accelerator-bottom-card {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-basis: 33%;
+}
+
+.cards-past-block .accelerator-bottom-card .content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-basis: 50%;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #ffffff;
+  padding-right: 20px;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.cards-past-block .accelerator-bottom-card .description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-basis: 50%;
+  height: 120px;
+  // font-family: "Courier New";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 16px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.cards-pointer-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-pointer-block .pointer-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-basis: 33%;
+}
+
+.cards-pointer-block .pointer-wrapper .pointer-visible {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-basis: 50%;
+  justify-content: center;
+  padding: 13px 0px;
+}
+.cards-pointer-block .pointer-wrapper .pointer-empty {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-basis: 50%;
+}
+
+.accelerator-bottom-cards .cards-present-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-present-block .accelerator-bottom-card {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-basis: 33%;
+}
+
+.cards-present-block .accelerator-bottom-card .content {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-basis: 50%;
+  height: 120px;
+  background: rgba(101, 206, 130, 0.25);
+  border: 1px solid #50d074;
+  padding-right: 20px;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 80px;
+  color: #50d074;
+}
+
+.cards-present-block .accelerator-bottom-card .description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-basis: 50%;
+  height: 120px;
+  // font-family: "Courier New";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 16px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.pointer-triangular {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 24px solid #50d074;
+}
+
+@media screen and (max-width: 1400px) {
+  .accelerator-top-title {
+    text-align: center;
+  }
+
+  .accelerator-top-cards {
+    justify-content: space-evenly;
+    gap: 12px;
+  }
+
+  .accelerator-top-card {
+    flex-basis: 397px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .accelerator-top-card {
+    flex-basis: 330px;
+  }
+
+  .accelerator-bottom-col-names {
+    display: none;
+  }
+
+  .accelerator-bottom-cards {
+    flex-basis: 100%;
+  }
+
+  .cards-past-block .accelerator-bottom-card .content {
+    padding-right: 0px;
+  }
+  .cards-past-block .accelerator-bottom-card .description {
+    font-size: 16px;
+  }
+
+  .cards-present-block .accelerator-bottom-card .description {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .accelerator {
+    padding: 75px 55px;
+  }
+  .accelerator-top-title {
+    margin-bottom: 35px;
+  }
+
+  .accelerator-top-subtitle {
+    font-size: 40px;
+  }
+
+  .accelerator-bottom {
+    padding-top: 75px;
+  }
+
+  .accelerator-bottom-title {
+    font-size: 40px;
+  }
+
+  .accelerator-bottom-cards {
+    justify-content: center;
+    display: flex;
+  }
+
+  .accelerator-bottom-cards .cards-past-block {
+    flex-direction: column;
+    flex-basis: 30%;
+  }
+  .accelerator-bottom-cards .cards-pointer-block {
+    flex-direction: column;
+    flex-basis: 30%;
+  }
+  .accelerator-bottom-cards .cards-present-block {
+    flex-direction: column;
+    flex-basis: 30%;
+  }
+
+  .pointer-triangular {
+    transform: rotate(-90deg);
+  }
+
+  .cards-past-block .accelerator-bottom-card {
+    flex-direction: column;
+  }
+  .cards-pointer-block .pointer-wrapper {
+    flex-direction: column;
+  }
+  .cards-present-block .accelerator-bottom-card {
+    flex-direction: column;
+  }
+
+  .cards-present-block .accelerator-bottom-card .description {
+    word-spacing: 250px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .accelerator-bottom-cards .cards-past-block {
+    flex-basis: 40%;
+  }
+  .accelerator-bottom-cards .cards-pointer-block {
+    flex-basis: 20%;
+  }
+
+  .accelerator-bottom-cards .cards-present-block {
+    flex-basis: 40%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .accelerator {
+    padding: 64px 25px;
+  }
+
+  .accelerator-top-title {
+    text-align: left;
+    margin-bottom: 18px;
+  }
+
+  .accelerator-top-subtitle {
+    font-size: 32px;
+  }
+
+  .accelerator-top-card {
+    flex-basis: 100%;
+  }
+
+  .accelerator-bottom-cards .cards-pointer-block {
+    justify-content: center;
+  }
+
+  .cards-pointer-block .pointer-wrapper .pointer-visible {
+    align-items: center;
+    flex-basis: 90%;
+  }
+}

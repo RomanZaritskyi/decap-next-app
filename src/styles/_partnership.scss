@@ -1,0 +1,106 @@
+.partnership {
+  width: 100%;
+  background-image: url("/images/bg_accelerator.jpg");
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 80px 300px 80px;
+}
+
+.partnership-title {
+  margin-bottom: 90px;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.partnership-title.bottom {
+  text-align: left;
+}
+
+.partnership-title span {
+  color: #50d074;
+}
+
+.partnership-top-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin: 90px 0px 90px 0;
+}
+
+.partnership-bottom {
+  display: flex;
+  padding-left: 5%;
+}
+
+.partnership-bottom-about {
+  flex-basis: 60%;
+  margin-bottom: 100px;
+}
+
+.partnership-bottom-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 60px;
+}
+
+@media screen and (max-width: 992px) {
+  .partnership {
+    padding: 75px 55px 225px 55px;
+  }
+
+  .partnership-title {
+    font-size: 40px;
+  }
+
+  .partnership-top {
+    margin-bottom: 55px;
+  }
+
+  .partnership-top-cards {
+    flex-wrap: wrap;
+  }
+
+  .partnership-top-card {
+    flex-basis: 400px;
+  }
+
+  .partnership-bottom {
+    align-items: center;
+  }
+
+  .partnership-bottom-about {
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .partnership {
+    padding: 64px 24px 155px 24px;
+  }
+
+  .partnership-title {
+    font-size: 32px;
+  }
+
+  .partnership-top {
+    margin-bottom: 90px;
+  }
+
+  .partnership-top-cards {
+    gap: 32px;
+    margin-top: 56px;
+  }
+  .partnership-bottom {
+    padding-left: 0;
+  }
+  .partnership-bottom-cards {
+    gap: 19px;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "locales": ["ua", "en"],
+  "defaultLocale": "ua",
+  "localeDetection": false,
+  "pages": {
+    "*": ["home"],
+    "/": ["home"]
+  }
+}

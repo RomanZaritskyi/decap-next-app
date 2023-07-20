@@ -1,0 +1,397 @@
+.application-form {
+  width: 100%;
+  padding: 145px 96px 200px 96px;
+  background-image: url("/images/bg_accelerator.jpg");
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .application-form-wrapper {
+    background-color: #142331;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 59px;
+
+    .application-form-personal-data,
+    .application-form-project-info,
+    .application-form-project-specifications,
+    .application-form-project-manufacture {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+
+    .application-form-personal-data {
+      margin-bottom: 64px;
+      .personal-data-item {
+        flex-basis: 31%;
+      }
+    }
+    .application-form-project-info {
+      .info-item {
+        flex-basis: 31%;
+      }
+    }
+    .application-form-project-specifications {
+      margin-top: 45px;
+      .specifications-item {
+        flex-basis: 31%;
+      }
+    }
+    .application-form-project-manufacture {
+      margin-top: 55px;
+      margin-bottom: 59px;
+      .manufacture-item {
+        flex-basis: 31%;
+
+        .manufacture-title {
+          font-family: "Source Sans Pro";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          letter-spacing: 0.4px;
+          color: rgba(255, 255, 255, 0.33);
+        }
+      }
+    }
+
+    .MuiFormControl-root {
+      font-family: "Source Sans Pro", sans-serif;
+
+      .application-form-input {
+        .MuiFilledInput-root,
+        .MuiInput-root {
+          height: 57px !important;
+          padding: 8px;
+          border-bottom: 1px solid rgba(230, 225, 229, 0.4);
+          overflow: hidden;
+          font-family: "Source Sans Pro", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.5px;
+          color: #fff;
+          border-top-left-radius: 4px;
+          border-top-right-radius: 4px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          transition-delay: 0s, 0s, 0s;
+          transition-duration: 0.3s, 0.3s, 0.3s;
+          transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+          &.Mui-focused {
+            box-shadow: rgba(25, 118, 210, 0.25) 0 0 0 2px;
+            border-color: #1976d2;
+          }
+        }
+
+        .MuiSelect-select {
+          position: relative;
+          display: flex;
+          align-items: flex-end;
+          height: 40px !important;
+          border-top-left-radius: 4px;
+          border-top-right-radius: 4px;
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+          background-color: transparent;
+          border-bottom: 1px solid rgba(230, 225, 229, 0.4);
+          color: #fff;
+          font-family: "Source Sans Pro", sans-serif;
+          font-size: 16px;
+          line-height: 24px;
+          padding-top: 10px;
+          padding-bottom: 5px;
+          padding-left: 8px;
+          padding-right: 8px;
+          transition-delay: 0s, 0s, 0s;
+          transition-duration: 0.3s, 0.3s, 0.3s;
+          transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+          // &:focus {
+          //   border-top-left-radius: 4px;
+          //   border-top-right-radius: 4px;
+          //   border-color: #80bdff;
+          //   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+          // }
+        }
+      }
+
+      .application-form-input.error {
+        .MuiFilledInput-root,
+        .MuiInput-root,
+        .MuiSelect-select {
+          border-bottom: 1px solid rgb(242, 184, 181);
+        }
+      }
+
+      label.application-form-label {
+        position: absolute;
+        left: 8px;
+        top: 8px;
+        z-index: 1;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+      }
+
+      span.application-form-placeholder {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: rgba(230, 225, 229, 0.4);
+      }
+
+      & input::placeholder {
+        -webkit-text-fill-color: #fff;
+      }
+
+      & input:autofill {
+        transition: "color 9999s ease-out, background-color 9999s ease-out";
+        transition-delay: 9999s;
+        -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+        -webkit-transition-delay: 9999s;
+      }
+
+      & input:-webkit-autofill {
+        transition: "color 9999s ease-out, background-color 9999s ease-out";
+        transition-delay: 9999s;
+        -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+        -webkit-transition-delay: 9999s;
+      }
+
+      & input[type="number"]::-webkit-outer-spin-button,
+      & input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      & input[type="number"] {
+        appearance: textfield;
+        -moz-appearance: textfield;
+      }
+
+      input.MuiInputBase-input {
+        padding-left: 0;
+        padding-top: 30px;
+        padding-right: 12px;
+        padding-bottom: 8px;
+      }
+
+      svg {
+        fill: #ffffff;
+      }
+
+      p.application-form-subtitle {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        color: rgba(255, 255, 255, 0.33);
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      p.application-form-subtitle.error {
+        color: rgb(242, 184, 181);
+      }
+    }
+
+    .dropzone-container {
+      margin-top: 15px;
+      cursor: pointer;
+      .dropzone {
+        .dropzone-placeholder {
+          display: flex;
+          .dropzone-placeholder-ico {
+            margin-right: 8px;
+          }
+          .dropzone-placeholder-text {
+            display: flex;
+            gap: 5px;
+            font-family: "Source Sans Pro";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #50d074;
+          }
+        }
+      }
+    }
+    .dropzone-files-list {
+      padding: 8px;
+
+      .dropzone-files-item {
+        font-size: 16px;
+        line-height: 20px;
+        color: #ffffff;
+        list-style: none;
+        position: relative;
+
+        & .file-remove-button {
+          width: 12px;
+          height: 12px;
+          span {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: inline-block;
+            font-size: 0px;
+            line-height: 0px;
+            width: 12px;
+            height: 1px;
+            background-color: #fff;
+          }
+          span:nth-child(1) {
+            transform: rotate(45deg);
+          }
+
+          span:nth-child(2) {
+            transform: rotate(135deg);
+          }
+        }
+      }
+    }
+
+    .application-form-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .application-form-title {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .application-form {
+    .application-form-wrapper {
+      .MuiFormControl-root {
+        label.application-form-label {
+          line-height: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .application-form {
+    .application-form-wrapper {
+      padding-left: 16px;
+      padding-right: 16px;
+      .application-form-personal-data,
+      .application-form-project-info,
+      .application-form-project-specifications,
+      .application-form-project-manufacture {
+        justify-content: center;
+        gap: 18px;
+      }
+
+      .application-form-personal-data {
+        .personal-data-item {
+          flex-basis: 47%;
+        }
+      }
+
+      .application-form-project-info {
+        .info-item {
+          flex-basis: 47%;
+        }
+      }
+
+      .application-form-project-specifications {
+        .specifications-item {
+          flex-basis: 47%;
+        }
+      }
+      .application-form-project-manufacture {
+        .manufacture-item {
+          flex-basis: 47%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .application-form {
+    padding: 127px 35px 185px 35px;
+    .application-form-wrapper {
+      // .application-form-personal-data,
+      // .application-form-project-info,
+      // .application-form-project-specifications,
+      // .application-form-project-manufacture {
+      //   justify-content: center;
+      //   gap: 18px;
+      // }
+
+      .application-form-personal-data {
+        .personal-data-item {
+          flex-basis: 100%;
+        }
+      }
+
+      .application-form-project-info {
+        .info-item {
+          flex-basis: 100%;
+        }
+      }
+
+      .application-form-project-specifications {
+        .specifications-item {
+          flex-basis: 100%;
+        }
+      }
+      .application-form-project-manufacture {
+        .manufacture-item {
+          flex-basis: 100%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+  .application-form {
+    padding: 72px 24px 175px 24px;
+
+    .application-form-title {
+      font-size: 24px;
+      line-height: 30px;
+      padding-top: 40px;
+      padding-bottom: 26px;
+    }
+    .application-form-wrapper {
+      .application-form-personal-data,
+      .application-form-project-info,
+      .application-form-project-specifications,
+      .application-form-project-manufacture {
+        gap: 24px;
+      }
+
+      .application-form-personal-data {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}

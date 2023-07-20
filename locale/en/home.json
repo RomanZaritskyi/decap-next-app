@@ -1,0 +1,187 @@
+{
+  "common": {
+    "button-join": "Contact",
+    "button-add-project": "Submit a project",
+    "bootm-apply-buttons": {
+      "button-join-to-team": "Join the team",
+      "button-ask-question": "Ask a question"
+    },
+    "logo": {
+      "title": "Accelerator",
+      "subtitle": "Ministry of Defence of Ukraine"
+    }
+  },
+  "header-nav": {
+    "about-link": "About Accelerator",
+    "main-page": "Main page"
+  },
+  "banner": {
+    "title": "Implementing new solutions for the victory",
+    "subtitle": "SPEEDING UP OPERATIONS IN THE MINISTRY OF DEFENCE"
+  },
+  "accelerator": {
+    "top-title": "",
+    "bottom-title": "ACCELERATOR's",
+    "bottom-title-green": "FUNCTIONS",
+
+    "possibilities": {
+      "cards": {
+        "card1": {
+          "title": "Mil-tech innovations",
+          "description": "Fast-track for new samples of TRL 7-9 - research, codification, admission to operation"
+        },
+        "card2": {
+          "title": "Cooperation with MoD",
+          "description": "for businesses, communities, investors, mil-tech specialists"
+        },
+        "card3": {
+          "title": "International cooperation",
+          "description": "with MoD's domestic and international partners"
+        },
+        "card4": {
+          "title": "Consulting",
+          "description": "training, expert support, quality assurance"
+        }
+      }
+    },
+    "changes": {
+      "title": "What has changed?",
+      "cards": {
+        "past": {
+          "title": "was",
+          "contract": {
+            "description": "contacts with officials"
+          },
+          "document": {
+            "description": "documents"
+          },
+          "period": {
+            "description": "years"
+          }
+        },
+        "present": {
+          "title": "became",
+          "contract": {
+            "description": "window for submission"
+          },
+          "document": {
+            "description": "documents"
+          },
+          "period": {
+            "description": "months"
+          }
+        }
+      }
+    }
+  },
+  "joinUs": {
+    "info": {
+      "title": "If you have:",
+      "list": {
+        "item1": "A sound solution or project that will strengthen Ukraine's defence capabilities,",
+        "item2": "Possibilities to strengthen the MoD or UAF",
+        "item3": "Competencies and desire to join MoD projects or divisions"
+      }
+    }
+  },
+  "priority": {
+    "title": "Priorities",
+    "cards": {
+      "card1": {
+        "title": "WEAPONS 1.0+",
+        "description": "Modernization and improvement of existing ammunition and armament"
+      },
+      "card2": {
+        "title": "Robotization and AI",
+        "description": "UAVs, ground and water drones; remote systems; robots, artificial intelligence (AI) systems"
+      },
+      "card3": {
+        "title": "Communications, EW/SIGINT",
+        "description": "Protected communications, landline and portable EW/SIGINT"
+      },
+      "card4": {
+        "title": "Weapons 2.0",
+        "description": "Weapons based on totally new principles"
+      },
+      "card5": {
+        "title": "Intelligence, Cyber defense, PSYOP",
+        "description": "Data collection and analysis; OSINT; PSYOP; cyber defense and offense"
+      },
+      "card6": {
+        "title": "IT SOLUTIONS",
+        "description": "Automation of processes and data analysis for decision-making in the Ministry of Defence and Armed Forces"
+      }
+    }
+  },
+  "partnership": {
+    "title": "We invite for collaboration",
+    "collaborationForm": {
+      "cards": {
+        "card31": {
+          "title": "Developers",
+          "description": "",
+          "description_old": "Do you have a project that can help our defenders, armament development, MIC"
+        },
+        "card32": {
+          "title": "Investors",
+          "description": "",
+          "description_old": "You can provide financial support, expert advice, connections"
+        },
+        "card33": {
+          "title": "Specialists",
+          "description": "",
+          "description_old": "You can make MoD team stronger by your knowledge and experience"
+        }
+      }
+    },
+    "about": {
+      "title": "About ",
+      "titleGreen": "Accelerator",
+      "cards": {
+        "card1": {
+          "title": " days",
+          "description": "Studying of armament sample by MoD's and AFU's experts"
+        },
+        "card2": {
+          "title": " days",
+          "description": "Codification, MoD's order, putting into service"
+        },
+        "card3": {
+          "title": "+",
+          "description": "Polygons, Centers of Competence"
+        },
+        "card4": {
+          "title": "+",
+          "description": "Qualified experts "
+        },
+        "card5": {
+          "title": "+",
+          "description": "Codified New Armament and military equipment: Ukrainian and Foreign"
+        },
+        "card6": {
+          "title": "+ billion UAH",
+          "description": "Contracted for 2023 (only for UAVs)"
+        }
+      }
+    },
+    "application": {
+      "title": "Feedback",
+      "text": "A single window to submit projects and proposals for cooperation with MoDoU will be available here soon"
+    },
+    "bottom-apply": {
+      "ask-question-text": "For defence industry enterprises, developers, investors: contact the Accelerator if you have questions, proposals for reforms, or if there are problems in cooperation with the Ministry of Defence.",
+      "join-text": "We invite to Accelerator all experienced specialists (both mobilized and civilian) in management, analytics, mil-tech techonologies and other talents with developed soft skills."
+    }
+  },
+  "footer": {
+    "copyright": "The Ministry of Defence of Ukraine 2023. All rights reserved",
+    "disclaimer": "The site is now in test mode! Some of its functionality is still under development. The content will be updated. Thank you for your understanding."
+  },
+  "article": {
+    "article-info": {
+      "title": "Deputy Minister of Defenсe of Ukraine",
+      "text": "Unique innovative ideas designed to strengthen the Ukrainian Defenсe Forces are often lost in the bureaucracy. The reality requires accelerated implementation of defenсe innovations to achieve technological superiority over the enemy. Given the challenges of today, the Ministry of Defenсe decided to launch an Accelerator similar to those in the ministries of defenсe of allied countries.",
+      "button": "Read on"
+    }
+  }
+}

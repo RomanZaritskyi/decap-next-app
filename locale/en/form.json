@@ -1,0 +1,204 @@
+{
+  "application-form": {
+    "title": "Join",
+    "personal-data": {
+      "fio": {
+        "placeholder": "Full name",
+        "label-text": "Full name *"
+      },
+      "address": {
+        "placeholder": "Registration address",
+        "label-text": "Registration address *"
+      },
+      "id": {
+        "placeholder": "ID or passport number",
+        "label-text": "ID or passport number *"
+      }
+    },
+    "project-info": {
+      "project-name": {
+        "placeholder": "Choose title",
+        "label-text": "Project title  *"
+      },
+      "project-subject": {
+        "placeholder": "Select type",
+        "label-text": "Project type *",
+        "project-subjects-source": {
+          "select-data-source": {
+            "item1": {
+              "name": "Modern technical intelligence means"
+            },
+            "item2": {
+              "name": "Systems (means) of automated management, communication and information security"
+            },
+            "item3": {
+              "name": "Navigation and geoinformation systems"
+            },
+            "item4": {
+              "name": "Robotic and remote-control systems (sets)"
+            },
+            "item5": {
+              "name": "Missile-artillery means of fire destruction"
+            },
+            "item6": {
+              "name": "Samples, systems (sets) of armament"
+            },
+            "item7": {
+              "name": "Systems of EW, cyber defence, countering technical intelligence and disinformation"
+            },
+            "item8": {
+              "name": "Systems (sets) of protection and troops safety"
+            },
+            "item9": {
+              "name": "Armament samples of new physical (untraditional) principles of operation"
+            },
+            "item10": {
+              "name": "Logistic and functional support means"
+            },
+            "item11": {
+              "name": "Unmanned aerial vehicles"
+            },
+            "item12": {
+              "name": "Technologies and tools of medical supply"
+            }
+          }
+        }
+      },
+      "project-owner": {
+        "placeholder": "Specify owner or holder",
+        "label-text": "Owner or holder of intellectual property *"
+      },
+      "project-id": {
+        "placeholder": "ID or passport number",
+        "label-text": "Owner’s/holder’s ID or passport number *"
+      },
+      "project-link": {
+        "placeholder": "Link to the project owner’s public profile",
+        "label-text": "Project owner’s public profile *"
+      },
+      "project-level": {
+        "placeholder": "Select TRL",
+        "label-text": "Technology Readiness Level (TRL) *",
+        "trl-levels-source": {
+          "select-data-source": {
+            "item1": {
+              "name": "TRL1 – Receiving basic principles"
+            },
+            "item2": {
+              "name": "TRL2 – Formulating technological solutions"
+            },
+            "item3": {
+              "name": "TRL3 – First assessment of idea’s and technology’s performance"
+            },
+            "item4": {
+              "name": "TRL4 – Approval of prototype’s efficiency in a lab"
+            },
+            "item5": {
+              "name": "TRL5 – Prototype testing in user’s work environment"
+            },
+            "item6": {
+              "name": "TRL6 – Releasing sample product, including testing in user’s work environment"
+            },
+            "item7": {
+              "name": "TRL7 – Demonstration of trial production on a low level"
+            },
+            "item8": {
+              "name": "TRL8 – Production is fully verified, approved and ready to run"
+            },
+            "item9": {
+              "name": "TRL9 – Production is fully started, and the product is competitive"
+            }
+          }
+        }
+      },
+      "project-team-quantity": {
+        "placeholder": "Specify staff count",
+        "label-text": "Project staff count  *"
+      }
+    },
+    "project-manufacture": {
+      "manufacture-title": {
+        "title": "Other additional materials"
+      },
+      "mass-manufactoring": {
+        "placeholder": "Select",
+        "label-text": "Possibility of serial production *",
+        "mass-manufactoring-source": {
+          "select-data-source": {
+            "item1": {
+              "name": "No"
+            },
+            "item2": {
+              "name": "Yes"
+            }
+          }
+        }
+      },
+      "investors": {
+        "placeholder": "Choose level",
+        "label-text": "Presence of investors / lenders / philanthropists *",
+        "investors-source": {
+          "select-data-source": {
+            "item1": {
+              "name": "No"
+            },
+            "item2": {
+              "name": "Yes"
+            }
+          }
+        }
+      },
+      "additional-source": {
+        "placeholder": "Upload additional materials"
+      }
+    },
+    "project-specifications": {
+      "testing-type": {
+        "label-text": "TTC and Test type *",
+        "placeholder": "Select test type",
+        "subtitle": "Provide test results if they exist",
+        "testing-types-source": {
+          "select-data-source": {
+            "item1": {
+              "name": "No"
+            },
+            "item2": {
+              "name": "Lab"
+            },
+            "item3": {
+              "name": "Field after lab"
+            },
+            "item4": {
+              "name": "Field only"
+            }
+          }
+        }
+      },
+      "testing-value": {
+        "placeholder": "Upload test results"
+      },
+      "specification-value": {
+        "placeholder": "Upload TTC"
+      },
+      "tech-advantages": {
+        "label-text": "Technical competitive advantages",
+        "placeholder": "Specify advantages",
+        "subtitle": "Specify advantages or upload the comparative table"
+      },
+
+      "advantages-value": {
+        "placeholder": "Upload the comparative table"
+      },
+      "economic-advantages": {
+        "label-text": "Economic competitive advantages",
+        "placeholder": "Specify advantages",
+        "subtitle": "Specify advantages or upload the comparative table"
+      }
+    },
+    "dropzone": {
+      "placeholder": "Change",
+      "hint": "The file should be in the formats of pdf, doc, docx, rtf, ppt, pptx, xls, xlsx and should not exceed the size of 10 MB.",
+      "error": "Invalid file type or file size too large!"
+    }
+  }
+}

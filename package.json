@@ -12,11 +12,17 @@
   "dependencies": {
     "next": "13.4.10",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next-translate": "^2.0.5",
+    "next-translate-plugin": "^2.0.5",
+    "react-dom": "18.2.0",
+    "typescript": "5.1.6"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
-    "frontmatter-markdown-loader": "^3.7.0"
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.15",
+    "frontmatter-markdown-loader": "^3.7.0",
+    "sass": "^1.64.0"
   }
 }

@@ -1,0 +1,113 @@
+.priority {
+  padding: 120px 50px 70px;
+  width: 100%;
+  background: #ffffff;
+}
+
+.priority-title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #060313;
+}
+
+.priority-top-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.priority-top-card {
+  position: relative;
+  flex-basis: 430px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px 26px 40px 26px;
+  border: 2px solid #50d074;
+  transition: all 0.5s ease-in-out;
+}
+
+.priority-top-card .title {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #060313;
+  margin-top: 50px;
+}
+
+.priority-top-card .title .underline {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.priority-top-card:hover {
+  background-color: #50d074;
+}
+
+.priority-top-card .priority-img {
+  transition: all 0.5s ease-in-out;
+  opacity: 0.3;
+}
+
+.priority-top-card:hover .priority-img {
+  opacity: 1;
+}
+.priority-top-card:hover .title .underline {
+  opacity: 1;
+}
+
+.priority-top-card .description {
+  // font-family: "Courier New";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #060313;
+
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 1400px) {
+  .priority-top-cards {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .priority {
+    padding: 64px 24px 64px;
+  }
+
+  .priority-title {
+    margin-bottom: 30px;
+    font-size: 32px;
+    line-height: 100%;
+  }
+
+  .priority-top-card .title {
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .priority-top-card .description {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 12px;
+  }
+}

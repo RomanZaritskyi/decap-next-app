@@ -1,0 +1,67 @@
+.article {
+  width: 100%;
+  background: #50d074;
+  display: flex;
+  padding: 45px 65px 34px 65px;
+}
+.article-photo {
+  display: inline-block;
+  height: auto;
+  margin-right: 110px;
+}
+.article-photo img {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
+
+.article-info {
+  // font-family: "Courier New";
+  flex-basis: 807px;
+}
+.article-info-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  color: #000000;
+}
+.article-info-text {
+  font-weight: 200;
+  font-size: 24px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  max-width: 807px;
+}
+
+.article-info-button a {
+  border: 1px solid #000;
+  display: inline-block;
+  text-align: center;
+}
+@media screen and (max-width: 992px) {
+  .article {
+    flex-direction: column;
+  }
+  .article-info {
+    margin-top: 10px;
+    flex-basis: 0px;
+  }
+  .article-info-title {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .article-info-text {
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .article {
+    padding: 12px 24px 34px 24px;
+  }
+  .article-info-text {
+    padding-left: 23px;
+  }
+}

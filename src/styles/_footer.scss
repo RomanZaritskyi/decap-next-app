@@ -1,0 +1,45 @@
+.footer {
+  position: absolute;
+  max-width: 1440px;
+  height: 192px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 80px;
+  bottom: 0;
+}
+.footer .footer-copyright {
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  opacity: 0.5;
+  max-width: 420px;
+}
+
+.disclaimer {
+  color: darkorange;
+}
+
+@media screen and (max-width: 992px) {
+  .footer {
+    padding: 0 55px;
+
+    .footer-copyright {
+      flex-basis: 35%;
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    height: 135px;
+    padding: 0 30px;
+  }
+
+  .footer .footer-copyright {
+    text-align: center;
+    margin-top: 38px;
+  }
+}

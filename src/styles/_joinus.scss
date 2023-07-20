@@ -1,0 +1,108 @@
+.join-us {
+  width: 100%;
+  background: #50d074;
+  display: flex;
+  padding: 45px 65px 34px 65px;
+}
+
+.join-us-trademark {
+  height: 154px;
+  width: 154px;
+  position: relative;
+  margin-right: 24%;
+}
+
+.join-us-trademark img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.join-us-trademark-lettering {
+  position: absolute;
+  width: 202px;
+  top: 53px;
+  left: 65px;
+}
+.join-us-trademark-title {
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #060313;
+}
+
+.join-us-trademark-subtitle {
+  font-size: 15px;
+  line-height: 19px;
+  color: #060313;
+}
+
+.join-us-info {
+  // font-family: "Courier New";
+  flex-basis: 680px;
+}
+
+.join-us-info-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.join-us-info-list {
+  font-weight: 200;
+  font-size: 24px;
+  padding-left: 40px;
+  max-width: 610px;
+}
+
+.join-us .join-us-info-button {
+  margin-top: 24px;
+}
+.join-us .join-us-info-button a {
+  border: 1px solid #000;
+  display: inline-block;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .join-us-info-title {
+    font-size: 18px;
+  }
+
+  .join-us-info-list {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .join-us {
+    flex-direction: column;
+  }
+
+  .join-us-info-title {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .join-us-info-list {
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 10px;
+  }
+
+  .join-us-info {
+    margin-top: 10px;
+    flex-basis: 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .join-us {
+    padding: 12px 24px 34px 24px;
+  }
+
+  .join-us-info-list {
+    padding-left: 23px;
+  }
+}

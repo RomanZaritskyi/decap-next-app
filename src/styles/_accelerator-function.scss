@@ -1,0 +1,103 @@
+.accelerator-function {
+  padding: 0px 80px 137px 96px;
+  color: #ffffff;
+}
+
+.fast-track-title {
+  text-align: center;
+  margin-top: 54px;
+  margin-bottom: 42px;
+}
+.mission-fast-track-cards {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.mission-fast-track-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 375px;
+  max-height: 188px;
+  min-height: 140px;
+  border: 1px solid #50d074;
+  padding-right: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  padding-left: 32px;
+  padding-top: 34px;
+  padding-bottom: 74px;
+}
+
+@media screen and (max-width: 992px) {
+  .accelerator-function {
+    padding: 105px 70px 87px 76px;
+  }
+  .mission-fast-track-cards {
+    display: block;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .mission-fast-track-card {
+    margin-bottom: 10px;
+  }
+  .mission-text {
+    padding-bottom: 64px;
+  }
+  .mission-for-text {
+    display: inline-block;
+    width: 48%;
+    margin: 24px 5px;
+  }
+  .mission-title {
+    margin-top: 44px;
+  }
+  .mission-main-goal-cards {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .accelerator-function {
+    padding: 65px 24px 47px 24px;
+  }
+
+  .mission-title {
+    font-size: 32px;
+  }
+  .mission-description {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 44px 0 24px;
+  }
+  .mission-text {
+    font-size: 14px;
+    padding-bottom: 44px;
+  }
+  .mission-for-title {
+    display: block;
+  }
+  .mission-for-text {
+    display: block;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .mission-main-goal-cards {
+    margin-top: 44px;
+    margin-bottom: 64px;
+  }
+  .fast-track-title {
+    font-size: 32px;
+    line-height: 32px;
+    padding: 0;
+  }
+  .mission-fast-track-cards {
+    display: block;
+    margin-left: 0;
+  }
+  .mission-fast-track-card {
+    margin-top: 8px;
+  }
+}
